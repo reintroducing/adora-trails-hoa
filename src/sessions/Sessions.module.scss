@@ -1,0 +1,14 @@
+.root {
+    display: flex;
+    flex-direction: column;
+}
+
+.yearSelect {
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.yearLabel {
+    margin: 0 8px 0 0;
+}

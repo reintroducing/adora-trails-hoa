@@ -1,0 +1,91 @@
+@use "sass:math";
+@use "@patientpattern/coat/core/mixins/a11y";
+@use "@patientpattern/coat/core/mixins/display";
+@use "@patientpattern/coat/core/mixins/media";
+
+$hamburger-layer-width: 20px;
+$hamburger-layer-height: 2px;
+$hamburger-layer-spacing: 4px;
+
+.root {
+    @include a11y.focus;
+    @include display.button-reset;
+    margin: 0 -8px 0 8px;
+    padding: 8px;
+    border-radius: 8px;
+
+    &.isActive {
+        .inner,
+        .inner::before,
+        .inner::after {
+            background-color: var(--color-neutral-500);
+        }
+
+        .inner {
+            $y-offset: $hamburger-layer-spacing + $hamburger-layer-height;
+            transform: translate3d(0, $y-offset, 0) rotate(45deg);
+
+            &::before {
+                transform: rotate(-45deg)
+                    translate3d(
+                        math.div($hamburger-layer-width, -7),
+                        $hamburger-layer-spacing * -1,
+                        0
+                    );
+                opacity: 0;
+            }
+
+            &::after {
+                transform: translate3d(0, $y-offset * -2, 0) rotate(-90deg);
+            }
+        }
+    }
+
+    @include media.query(">=lg") {
+        display: none;
+    }
+}
+
+.box {
+    display: inline-block;
+    position: relative;
+    width: $hamburger-layer-width;
+    height: $hamburger-layer-height * 3 + $hamburger-layer-spacing * 2;
+}
+
+.inner {
+    display: block;
+    top: math.div($hamburger-layer-height, 2);
+    margin-top: math.div($hamburger-layer-height, -2);
+
+    &,
+    &::before,
+    &::after {
+        position: absolute;
+        width: $hamburger-layer-width;
+        height: $hamburger-layer-height;
+        background-color: var(--color-neutral-500);
+        border-radius: 4px;
+        transition-property: transform;
+        transition-duration: 0.15s;
+        transition-timing-function: ease;
+    }
+
+    &::before,
+    &::after {
+        content: "";
+        display: block;
+    }
+
+    &::before {
+        top: $hamburger-layer-height + $hamburger-layer-spacing;
+        transition-property: transform, opacity;
+        transition-timing-function: ease;
+        transition-duration: 0.15s;
+    }
+
+    &::after {
+        top: ($hamburger-layer-height * 2) + ($hamburger-layer-spacing * 2);
+        bottom: ($hamburger-layer-spacing + $hamburger-layer-height) * -1;
+    }
+}

@@ -1,0 +1,29 @@
+@use "@patientpattern/coat/core/mixins/media";
+@use "@patientpattern/coat/core/variables/z-index";
+@use "../settings";
+
+.root {
+    position: fixed;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - #{settings.$header-height});
+    padding: 16px;
+    overflow-y: auto;
+    background-color: var(--color-white);
+    border-right: 1px solid var(--color-neutral-200);
+    box-shadow: var(--shadow-lg);
+    z-index: z-index.$layer4;
+    transition: left var(--motion-ease-in-out);
+
+    @include media.query(">=sm") {
+        width: settings.$sidebar-width;
+    }
+
+    @include media.query(">=lg") {
+        display: none;
+    }
+}
+
+.showing {
+    left: 0;
+}

@@ -1,0 +1,6 @@
+@use "settings";
+
+.content {
+    margin-top: settings.$header-height;
+    padding: 24px;
+}
