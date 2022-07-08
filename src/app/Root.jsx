@@ -9,7 +9,7 @@ import App from './App';
 
 const Root = () => (
     <CoatApp>
-        <BrowserRouter>
+        <BrowserRouter basename="/adora-trails-hoa">
             <App>
                 <Routes>
                     <Route path="/" element={<Outlet />}>
