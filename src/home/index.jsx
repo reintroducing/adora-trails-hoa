@@ -1,11 +1,5 @@
-import PropTypes from 'prop-types';
-
-const Home = props => {
-    return <div className="Home">Home</div>;
+const Home = () => {
+    return <div className="Home">In progress...</div>;
 };
-
-Home.propTypes = {};
-
-Home.defaultProps = {};
 
 export default Home;

@@ -75,9 +75,11 @@ const Session = ({
             <div className={css.info}>
                 <Text>
                     <strong className={css.present}>Management Present:</strong>{' '}
-                    {managers.map(({id, name}, i) => (
+                    {managers.map(({id, firstName, lastName}, i) => (
                         <Fragment key={id}>
-                            <Link to={`/members/managers/${id}`}>{name}</Link>
+                            <Link to={`/members/managers/${id}`}>
+                                {firstName} {lastName}
+                            </Link>
                             {i < managers.length - 1 ? ', ' : ''}
                         </Fragment>
                     ))}
@@ -86,9 +88,11 @@ const Session = ({
                     <strong className={css.present}>
                         Board Members Present:
                     </strong>{' '}
-                    {directors.map(({id, name}, i) => (
+                    {directors.map(({id, firstName, lastName}, i) => (
                         <Fragment key={id}>
-                            <Link to={`/members/directors/${id}`}>{name}</Link>
+                            <Link to={`/members/directors/${id}`}>
+                                {firstName} {lastName}
+                            </Link>
                             {i < directors.length - 1 ? ', ' : ''}
                         </Fragment>
                     ))}
@@ -98,14 +102,18 @@ const Session = ({
                         Board Members Absent:
                     </strong>{' '}
                     {absentDirectors.length > 0
-                        ? absentDirectors.map(({id, name}, i) => (
-                              <Fragment key={id}>
-                                  <Link to={`/members/directors/${id}`}>
-                                      {name}
-                                  </Link>
-                                  {i < absentDirectors.length - 1 ? ', ' : ''}
-                              </Fragment>
-                          ))
+                        ? absentDirectors.map(
+                              ({id, firstName, lastName}, i) => (
+                                  <Fragment key={id}>
+                                      <Link to={`/members/directors/${id}`}>
+                                          {firstName} {lastName}
+                                      </Link>
+                                      {i < absentDirectors.length - 1
+                                          ? ', '
+                                          : ''}
+                                  </Fragment>
+                              )
+                          )
                         : 'None'}
                 </Text>
                 <Text>
@@ -113,7 +121,7 @@ const Session = ({
                 </Text>
                 <Text>
                     <a href={minutes} target="_blank" rel="noreferrer">
-                        View official session minutes
+                        View session minutes
                     </a>
                 </Text>
             </div>
@@ -138,7 +146,8 @@ const Session = ({
                                 Votes:
                             </Text>{' '}
                             {voteFor.map(dir => {
-                                const {id, name} = getDirectorById(dir);
+                                const {id, firstName, lastName} =
+                                    getDirectorById(dir);
 
                                 return (
                                     <Badge
@@ -147,12 +156,13 @@ const Session = ({
                                         size="sm"
                                         variant="success"
                                     >
-                                        {name}
+                                        {firstName} {lastName}
                                     </Badge>
                                 );
                             })}
                             {against.map(dir => {
-                                const {id, name} = getDirectorById(dir);
+                                const {id, firstName, lastName} =
+                                    getDirectorById(dir);
 
                                 return (
                                     <Badge
@@ -161,7 +171,7 @@ const Session = ({
                                         size="sm"
                                         variant="error"
                                     >
-                                        {name}
+                                        {firstName} {lastName}
                                     </Badge>
                                 );
                             })}

@@ -16,7 +16,8 @@ const Root = () => (
                         <Route index element={<Navigate to="home" replace />} />
                         <Route path="home" element={<Home />} />
                         <Route path="sessions" element={<Sessions />} />
-                        <Route path="members" element={<Members />}>
+                        <Route path="members" element={<Outlet />}>
+                            <Route index element={<Members />} />
                             <Route
                                 path="directors/:id"
                                 element={<Director />}

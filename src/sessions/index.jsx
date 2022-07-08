@@ -41,7 +41,9 @@ const Sessions = () => {
         <div className={css.root}>
             <Select
                 classNameRoot={css.yearSelect}
-                label={<Label classNameRoot={css.yearLabel}>View Year:</Label>}
+                label={
+                    <Label classNameRoot={css.yearLabel}>Viewing Year:</Label>
+                }
                 items={getYears().map(year => ({
                     value: year,
                     label: year,

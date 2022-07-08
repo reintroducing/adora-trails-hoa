@@ -1,3 +1,4 @@
+import orderBy from 'lodash/orderBy';
 import create from 'zustand';
 import {devtools} from 'zustand/middleware';
 
@@ -23,6 +24,7 @@ export const useSessionsStore = create(
     devTools((set, get) => ({
         ...initialState,
         getYears: () => Object.keys(get().sessions).reverse(),
-        getSessionsByYear: year => get().sessions[year],
+        getSessionsByYear: year =>
+            orderBy(get().sessions[year], ['id'], ['desc']),
     }))
 );
