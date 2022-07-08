@@ -3,8 +3,7 @@ import CoatApp from '@patientpattern/coat/ui/App';
 import Home from 'home';
 import Sessions from 'sessions';
 import Members from 'members';
-import Director from 'members/Director';
-import Manager from 'members/Manager';
+import Member from 'members/Member';
 import App from './App';
 
 const Root = () => (
@@ -18,11 +17,8 @@ const Root = () => (
                         <Route path="sessions" element={<Sessions />} />
                         <Route path="members" element={<Outlet />}>
                             <Route index element={<Members />} />
-                            <Route
-                                path="directors/:id"
-                                element={<Director />}
-                            />
-                            <Route path="managers/:id" element={<Manager />} />
+                            <Route path="directors/:id" element={<Member />} />
+                            <Route path="managers/:id" element={<Member />} />
                         </Route>
                         <Route path="*" element={<Navigate to="/" replace />} />
                     </Route>

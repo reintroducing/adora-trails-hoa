@@ -1,5 +1,3 @@
-import IconUser01 from '@patientpattern/coat/icons/User01';
-import Avatar from '@patientpattern/coat/ui/Avatar';
 import Text from '@patientpattern/coat/ui/Text';
 import {useMembersStore} from 'members/store';
 import MemberItem from './MemberItem';
