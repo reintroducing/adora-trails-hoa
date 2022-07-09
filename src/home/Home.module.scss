@@ -1,0 +1,44 @@
+@use "@patientpattern/coat/core/mixins/media";
+
+.root {
+    max-width: 1280px;
+    margin: 32px auto;
+}
+
+.textBlock {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.title {
+    color: var(--color-primary-600);
+}
+
+.subtitle {
+    color: var(--color-neutral-900);
+}
+
+.hoaInfo {
+    display: flex;
+    flex-direction: column;
+    max-width: 960px;
+    margin: 0 auto;
+
+    @include media.query(">=md") {
+        flex-direction: row;
+    }
+}
+
+.hoaBlock {
+    @include media.query(">=md") {
+        width: calc(50% - 32px);
+
+        &:first-child {
+            margin-right: 32px;
+        }
+
+        &:last-child {
+            margin-left: 32px;
+        }
+    }
+}
