@@ -20,6 +20,25 @@
     color: var(--color-error-700);
 }
 
+.resultBadge {
+    display: flex;
+    align-items: center;
+}
+
+.trigger {
+    top: -1px;
+    cursor: pointer;
+}
+
+.content {
+    max-width: 200px;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+}
+
 .votes {
     margin: 0;
     border-top: 1px solid var(--color-neutral-050);
@@ -29,6 +48,6 @@
     }
 }
 
-.badge {
+.voterBadge {
     margin-right: 8px;
 }

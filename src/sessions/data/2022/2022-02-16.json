@@ -1,0 +1,87 @@
+{
+  "attendees": [4, 5, 6, 7, 8, 9, 10],
+  "absentees": [],
+  "management": [4, 5, 6, 9],
+  "minutes": "https://www.adoratrailscoa.com/ResourceCenter/Download/22933/adoratrails02_162022open?doc_id=3027633&print=1&view=1",
+  "notes": "Board meeting schedule set to second Wednesday of month for executive sessions and third Wednesday of month for open sessions throughout 2022. Bob presented information for rescinding decision for Management to have the ability to respond to Facebook posts.",
+  "motions": [
+    {
+      "id": 1,
+      "title": "Design Guidelines - Trampolines",
+      "description": "To correct guidelines to read \"Play Equipment\"",
+      "categories": [5],
+      "votes": {
+        "for": [4, 5, 6, 7, 8, 9, 10],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "id": 2,
+      "title": "Fitness equipment repairs",
+      "description": "Approve the GymTech bid for $1,058.41.",
+      "categories": [1],
+      "votes": {
+        "for": [4, 5, 6, 7, 8, 9, 10],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "id": 3,
+      "title": "Tree drenching",
+      "description": "Approve bid from Four Peaks $5,760.",
+      "categories": [2],
+      "votes": {
+        "for": [4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": [10]
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "id": 4,
+      "title": "Clubhouse freezer options",
+      "description": "Approve up to $250 for freezer.",
+      "categories": [1],
+      "votes": {
+        "for": [4, 5, 6, 7, 8, 9, 10],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "id": 5,
+      "title": "Event Request - Shred-A-Thon",
+      "description": null,
+      "categories": [7],
+      "votes": {
+        "for": [4, 6, 7, 8, 9, 10],
+        "against": [],
+        "abstain": [5]
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "id": 6,
+      "title": "Golf cart batteries",
+      "description": "Approve up to $2,000 for new batteries.",
+      "categories": [1],
+      "votes": {
+        "for": [],
+        "against": [4, 5, 6, 7, 8, 9, 10],
+        "abstain": []
+      },
+      "result": 2,
+      "notes": null
+    }
+  ]
+}

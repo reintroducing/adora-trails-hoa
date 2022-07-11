@@ -1,130 +1,113 @@
 {
-  "id": "2022-05-18",
   "attendees": [5, 6, 7, 8, 9, 10],
   "absentees": [],
-  "management": [4, 5, 6],
-  "minutes": "https://www.adoratrailscoa.com/ResourceCenter/Download/22933/adoratrailsbodminutes42022approved?doc_id=3047784&print=1&view=1",
-  "notes": "Talon Smith joined via Zoom and left at 6:40 PM. Shane Musgrove resigned from the Board.",
+  "management": [4, 6, 7],
+  "minutes": "https://www.adoratrailscoa.com/ResourceCenter/Download/22933/adoratrailsbodminutes51822approved?doc_id=3061394&print=1&view=1",
+  "notes": "Talon Smith joined via Zoom and left at 6:40 PM. Shane Musgrove resigned from the Board. The Board resolved to keep the water temperatures at 83 degrees year round.",
   "motions": [
     {
       "id": 1,
-      "title": "Upgrade to AED equipment",
-      "description": "Approve upgrade for +$10/month.",
-      "categories": [1],
+      "title": "Revisions to the Design Guidelines – Exterior Painting",
+      "description": "Approve revisions with noted addition.",
+      "categories": [5],
       "votes": {
         "for": [5, 6, 7, 8, 9, 10],
-        "against": []
+        "against": [],
+        "abstain": []
       },
       "result": 1,
       "notes": null
     },
     {
       "id": 2,
-      "title": "Half basketball court shade structures",
-      "description": "Approve Eaglewing Iron Works for $2,160.",
-      "categories": [1],
+      "title": "Approve the Holiday Lighting Committee Charter as revised",
+      "description": null,
+      "categories": [6],
       "votes": {
         "for": [5, 6, 7, 8, 9, 10],
-        "against": []
+        "against": [],
+        "abstain": []
       },
       "result": 1,
       "notes": null
     },
     {
       "id": 3,
-      "title": "Audio visual equipment for meetings",
+      "title": "Approve the parking patrol bid presented by Urban Tactical",
       "description": null,
-      "categories": [1],
+      "categories": [6],
       "votes": {
-        "for": [],
-        "against": []
+        "for": [5, 6, 7, 8, 9, 10],
+        "against": [],
+        "abstain": []
       },
-      "result": 3,
-      "notes": "Board tabled item pending additional info."
+      "result": 1,
+      "notes": null
     },
     {
       "id": 4,
-      "title": "Tree policy",
-      "description": "",
+      "title": "Approve the bid for June tree trimming as presented by Four Peaks",
+      "description": null,
       "categories": [2],
       "votes": {
         "for": [5, 6, 7, 8, 9, 10],
-        "against": []
+        "against": [],
+        "abstain": []
       },
       "result": 1,
       "notes": null
     },
     {
       "id": 5,
-      "title": "Additional gym equipment",
-      "description": "Approve bid from Advanced Exercise for $9,217.73 + $350 for install.",
+      "title": "Approve the bid from AmeriZona for tinting 2 meeting room doors",
+      "description": null,
       "categories": [1],
       "votes": {
         "for": [5, 6, 7, 8, 9, 10],
-        "against": []
+        "against": [],
+        "abstain": []
       },
       "result": 1,
       "notes": null
     },
     {
       "id": 6,
-      "title": "Sidewalk grinding/replacement and ramada pillars",
-      "description": "Approve First Rate Maintenance for $13,600.",
-      "categories": [3],
+      "title": "Approve the bid from ALD for pool chair re-strapping",
+      "description": null,
+      "categories": [1],
       "votes": {
         "for": [5, 6, 7, 8, 9, 10],
-        "against": []
+        "against": [],
+        "abstain": []
       },
       "result": 1,
       "notes": null
     },
     {
       "id": 7,
-      "title": "Turf de-thatching bid",
-      "description": "Approve Four Peak bid for $6,040.",
-      "categories": [2],
+      "title": "Approve the bid for metal painting as presented by Certa Pro",
+      "description": null,
+      "categories": [1],
       "votes": {
         "for": [5, 6, 7, 8, 9, 10],
-        "against": []
+        "against": [],
+        "abstain": []
       },
       "result": 1,
       "notes": null
     },
     {
       "id": 8,
-      "title": "Tree replacement",
-      "description": "Approve not to exceed $7,500 for trees on West Canal.",
-      "categories": [2],
-      "votes": {
-        "for": [5, 6, 7, 8, 9, 10],
-        "against": []
-      },
-      "result": 1,
-      "notes": null
-    },
-    {
-      "id": 9,
-      "title": "Revisions to the Design Guidelines",
-      "description": null,
+      "title": "Revisions to the Design Guidelines – Driveways and Walkways",
+      "description": "Approve the revisions with noted corrections.",
       "categories": [5],
       "votes": {
-        "for": [],
-        "against": []
+        "for": [7, 9],
+        "against": [5, 6, 8, 10],
+        "abstain": []
       },
-      "result": 3,
-      "notes": "Board tabled item pending additional info."
-    },
-    {
-      "id": 10,
-      "title": "Management access to Facebook",
-      "description": null,
-      "categories": [4],
-      "votes": {
-        "for": [],
-        "against": []
-      },
-      "result": 3,
-      "notes": "Board tabled item pending additional info."
+      "result": 2,
+      "notes": null
     }
   ]
 }

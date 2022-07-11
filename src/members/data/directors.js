@@ -21,7 +21,7 @@ export default [
         lastName: 'Grady',
         title: 'Director',
         image: null,
-        active: false,
+        active: true,
     },
     {
         id: 4,

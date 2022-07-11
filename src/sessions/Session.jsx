@@ -1,8 +1,11 @@
 import {Fragment} from 'react';
 import {Link} from 'react-router-dom';
 import PropTypes from 'prop-types';
+import sortBy from 'lodash/sortBy';
+import IconInfoCircle from '@patientpattern/coat/icons/InfoCircle';
 import Badge from '@patientpattern/coat/ui/Badge';
 import Table from '@patientpattern/coat/ui/Table';
+import Tooltip from '@patientpattern/coat/ui/Tooltip';
 import Text from '@patientpattern/coat/ui/Text';
 import {useCommonStore} from 'common/store';
 import Expand from 'common/table/Expand';
@@ -40,10 +43,26 @@ const Session = ({
         {
             Header: 'Result',
             accessor: 'result',
-            Cell: ({value}) => (
-                <Badge variant={RESULTS[value]}>
-                    {getResultById(value).name}
-                </Badge>
+            Cell: ({
+                value,
+                row: {
+                    original: {notes: resultNotes},
+                },
+            }) => (
+                <span className={css.resultBadge}>
+                    <Badge variant={RESULTS[value]}>
+                        {getResultById(value).name}
+                    </Badge>
+                    {resultNotes && (
+                        <Tooltip
+                            classNameTrigger={css.trigger}
+                            classNameContent={css.content}
+                            content={resultNotes}
+                        >
+                            <IconInfoCircle className={css.icon} />
+                        </Tooltip>
+                    )}
+                </span>
             ),
         },
         {
@@ -62,6 +81,36 @@ const Session = ({
     const directors = attendees.map(item => getDirectorById(item));
     const absentDirectors = absentees.map(item => getDirectorById(item));
     const managers = management.map(item => getManagerById(item));
+    const renderVotes = (votes, variant) => {
+        const voters = votes.map(dir => {
+            const {id, firstName, lastName} = getDirectorById(dir);
+
+            return {id, firstName, lastName};
+        });
+
+        return sortBy(voters, ['lastName']).map(({id, firstName, lastName}) => {
+            const name = `${firstName} ${lastName}`;
+            let suffix = 'voted for';
+
+            if (variant === 'error') {
+                suffix = 'voted against';
+            } else if (variant === 'warning') {
+                suffix = 'abstained';
+            }
+
+            return (
+                <Badge
+                    key={id}
+                    classNameRoot={css.voterBadge}
+                    size="sm"
+                    variant={variant}
+                    title={`${name} ${suffix}`}
+                >
+                    {name}
+                </Badge>
+            );
+        });
+    };
     const expanded = {};
 
     motions.forEach((item, i) => {
@@ -75,34 +124,38 @@ const Session = ({
             <div className={css.info}>
                 <Text>
                     <strong className={css.present}>Management Present:</strong>{' '}
-                    {managers.map(({id, firstName, lastName}, i) => (
-                        <Fragment key={id}>
-                            <Link to={`/members/managers/${id}`}>
-                                {firstName} {lastName}
-                            </Link>
-                            {i < managers.length - 1 ? ', ' : ''}
-                        </Fragment>
-                    ))}
+                    {sortBy(managers, ['lastName']).map(
+                        ({id, firstName, lastName}, i) => (
+                            <Fragment key={id}>
+                                <Link to={`/members/managers/${id}`}>
+                                    {firstName} {lastName}
+                                </Link>
+                                {i < managers.length - 1 ? ', ' : ''}
+                            </Fragment>
+                        )
+                    )}
                 </Text>
                 <Text>
                     <strong className={css.present}>
                         Board Members Present:
                     </strong>{' '}
-                    {directors.map(({id, firstName, lastName}, i) => (
-                        <Fragment key={id}>
-                            <Link to={`/members/directors/${id}`}>
-                                {firstName} {lastName}
-                            </Link>
-                            {i < directors.length - 1 ? ', ' : ''}
-                        </Fragment>
-                    ))}
+                    {sortBy(directors, ['lastName']).map(
+                        ({id, firstName, lastName}, i) => (
+                            <Fragment key={id}>
+                                <Link to={`/members/directors/${id}`}>
+                                    {firstName} {lastName}
+                                </Link>
+                                {i < directors.length - 1 ? ', ' : ''}
+                            </Fragment>
+                        )
+                    )}
                 </Text>
                 <Text>
                     <strong className={css.absent}>
                         Board Members Absent:
                     </strong>{' '}
                     {absentDirectors.length > 0
-                        ? absentDirectors.map(
+                        ? sortBy(absentDirectors, ['lastName']).map(
                               ({id, firstName, lastName}, i) => (
                                   <Fragment key={id}>
                                       <Link to={`/members/directors/${id}`}>
@@ -136,7 +189,7 @@ const Session = ({
                     colSpan,
                     row: {
                         original: {
-                            votes: {for: voteFor, against},
+                            votes: {for: voteFor, against, abstain},
                         },
                     },
                 }) => (
@@ -145,36 +198,9 @@ const Session = ({
                             <Text as="span" size="xs" weight="medium">
                                 Votes:
                             </Text>{' '}
-                            {voteFor.map(dir => {
-                                const {id, firstName, lastName} =
-                                    getDirectorById(dir);
-
-                                return (
-                                    <Badge
-                                        key={id}
-                                        classNameRoot={css.badge}
-                                        size="sm"
-                                        variant="success"
-                                    >
-                                        {firstName} {lastName}
-                                    </Badge>
-                                );
-                            })}
-                            {against.map(dir => {
-                                const {id, firstName, lastName} =
-                                    getDirectorById(dir);
-
-                                return (
-                                    <Badge
-                                        key={id}
-                                        classNameRoot={css.badge}
-                                        size="sm"
-                                        variant="error"
-                                    >
-                                        {firstName} {lastName}
-                                    </Badge>
-                                );
-                            })}
+                            {renderVotes(voteFor, 'success')}
+                            {renderVotes(against, 'error')}
+                            {renderVotes(abstain, 'warning')}
                         </td>
                     </tr>
                 )}
@@ -199,6 +225,7 @@ Session.propTypes = {
                 votes: PropTypes.shape({
                     for: PropTypes.arrayOf(PropTypes.number),
                     against: PropTypes.arrayOf(PropTypes.number),
+                    abstain: PropTypes.arrayOf(PropTypes.number),
                 }),
                 result: PropTypes.number,
                 notes: PropTypes.string,

@@ -1,41 +1,32 @@
-import {useState} from 'react';
-import Accordion from '@patientpattern/coat/ui/Accordion';
+import {
+    Outlet,
+    useNavigate,
+    useParams,
+    useSearchParams,
+} from 'react-router-dom';
 import Label from '@patientpattern/coat/ui/Label';
 import Select from '@patientpattern/coat/ui/Select/unhooked';
+import useMountEffect from '@patientpattern/utils/hooks/useMountEffect';
 import {useSessionsStore} from 'sessions/store';
-import Session from './Session';
 import css from './Sessions.module.scss';
 
-function generateItems(sessions) {
-    return sessions.map((session, i) => {
-        const date = new Date(session.id);
-
-        return {
-            isOpen: i === 0,
-            trigger: date.toLocaleDateString('en-US', {
-                weekday: 'long',
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric',
-            }),
-            content: <Session data={session} />,
-        };
-    });
-}
-
 const Sessions = () => {
+    const navigate = useNavigate();
     const getYears = useSessionsStore(state => state.getYears);
-    const getSessionsByYear = useSessionsStore(
-        state => state.getSessionsByYear
-    );
-    const [currentYear, setCurrentYear] = useState(getYears()[0]);
-    const [items, setItems] = useState(() =>
-        generateItems(getSessionsByYear(currentYear))
-    );
+    const {year = getYears()[0]} = useParams();
+    const [searchParams] = useSearchParams();
     const onYearChange = ({target: {value}}) => {
-        setItems(generateItems(getSessionsByYear(value)));
-        setCurrentYear(value);
+        navigate(value);
     };
+
+    useMountEffect(() => {
+        const session = searchParams.get('session');
+
+        navigate(
+            {pathname: year, search: session ? `?session=${session}` : null},
+            {replace: true}
+        );
+    });
 
     return (
         <div className={css.root}>
@@ -44,13 +35,14 @@ const Sessions = () => {
                 label={
                     <Label classNameRoot={css.yearLabel}>Viewing Year:</Label>
                 }
-                items={getYears().map(year => ({
-                    value: year,
-                    label: year,
+                items={getYears().map(i => ({
+                    value: i,
+                    label: i,
                 }))}
+                defaultValue={year}
                 onChange={onYearChange}
             />
-            <Accordion key={currentYear} items={items} />
+            <Outlet />
         </div>
     );
 };

@@ -1,5 +1,4 @@
 {
-  "id": "2022-04-20",
   "attendees": [5, 6, 7, 8, 9, 10],
   "absentees": [4],
   "management": [4, 5, 6],
@@ -13,7 +12,8 @@
       "categories": [1],
       "votes": {
         "for": [5, 6, 7, 8, 9, 10],
-        "against": []
+        "against": [],
+        "abstain": []
       },
       "result": 1,
       "notes": null
@@ -25,7 +25,8 @@
       "categories": [1],
       "votes": {
         "for": [5, 6, 7, 8, 9, 10],
-        "against": []
+        "against": [],
+        "abstain": []
       },
       "result": 1,
       "notes": null
@@ -37,7 +38,8 @@
       "categories": [1],
       "votes": {
         "for": [],
-        "against": []
+        "against": [],
+        "abstain": []
       },
       "result": 3,
       "notes": "Board tabled item pending additional info."
@@ -45,11 +47,12 @@
     {
       "id": 4,
       "title": "Tree policy",
-      "description": "",
+      "description": null,
       "categories": [2],
       "votes": {
         "for": [5, 6, 7, 8, 9, 10],
-        "against": []
+        "against": [],
+        "abstain": []
       },
       "result": 1,
       "notes": null
@@ -61,7 +64,8 @@
       "categories": [1],
       "votes": {
         "for": [5, 6, 7, 8, 9, 10],
-        "against": []
+        "against": [],
+        "abstain": []
       },
       "result": 1,
       "notes": null
@@ -73,7 +77,8 @@
       "categories": [3],
       "votes": {
         "for": [5, 6, 7, 8, 9, 10],
-        "against": []
+        "against": [],
+        "abstain": []
       },
       "result": 1,
       "notes": null
@@ -85,7 +90,8 @@
       "categories": [2],
       "votes": {
         "for": [5, 6, 7, 8, 9, 10],
-        "against": []
+        "against": [],
+        "abstain": []
       },
       "result": 1,
       "notes": null
@@ -97,7 +103,8 @@
       "categories": [2],
       "votes": {
         "for": [5, 6, 7, 8, 9, 10],
-        "against": []
+        "against": [],
+        "abstain": []
       },
       "result": 1,
       "notes": null
@@ -109,7 +116,8 @@
       "categories": [5],
       "votes": {
         "for": [],
-        "against": []
+        "against": [],
+        "abstain": []
       },
       "result": 3,
       "notes": "Board tabled item pending additional info."
@@ -121,7 +129,8 @@
       "categories": [4],
       "votes": {
         "for": [],
-        "against": []
+        "against": [],
+        "abstain": []
       },
       "result": 3,
       "notes": "Board tabled item pending additional info."

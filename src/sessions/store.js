@@ -7,13 +7,18 @@ const req = import.meta.globEager('./data/**/*.json');
 const sessions = {};
 
 Object.keys(req).forEach(key => {
-    const [, , year] = key.split('/');
+    const [, , year, file] = key.split('/');
+    const id = file.replace('.json', '');
 
     if (!sessions[year]) {
         sessions[year] = [];
     }
 
-    sessions[year].push(req[key].default);
+    sessions[year].push({
+        ...req[key].default,
+        id,
+        date: new Date(`${id}T00:00:00`),
+    });
 });
 
 const initialState = {

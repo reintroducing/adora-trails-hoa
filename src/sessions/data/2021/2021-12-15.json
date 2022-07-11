@@ -1,0 +1,126 @@
+{
+  "attendees": [3, 4, 5, 6, 7, 8, 9],
+  "absentees": [],
+  "management": [4, 6],
+  "minutes": "https://www.adoratrailscoa.com/ResourceCenter/Download/22933/12_152021openapproved?doc_id=3005620&print=1&view=1",
+  "notes": null,
+  "motions": [
+    {
+      "id": 1,
+      "title": "Mechanical seal bid",
+      "description": null,
+      "categories": [1],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "id": 2,
+      "title": "Clubhouse exit signs",
+      "description": "Approve signs for $69.90 each.",
+      "categories": [1],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "id": 3,
+      "title": "Swing replacement bid",
+      "description": null,
+      "categories": [1],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "id": 4,
+      "title": "HVAC repair bid",
+      "description": null,
+      "categories": [1],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "id": 5,
+      "title": "Formation of the flag committee",
+      "description": "Approve the charter as presented.",
+      "categories": [6],
+      "votes": {
+        "for": [],
+        "against": [3, 4, 5, 6, 7, 8, 9],
+        "abstain": []
+      },
+      "result": 2,
+      "notes": null
+    },
+    {
+      "id": 6,
+      "title": "Formation of the flag committee",
+      "description": "Approve the charter as revised.",
+      "categories": [6],
+      "votes": {
+        "for": [3, 5, 7, 9],
+        "against": [4, 6, 8],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": "Shane, Bill and Michelle do not feel the responsibility should be split between two parties."
+    },
+    {
+      "id": 7,
+      "title": "Formation of the flag committee",
+      "description": "Approve 3 committee members.",
+      "categories": [6],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "id": 8,
+      "title": "Screening material guidelines",
+      "description": null,
+      "categories": [5],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "id": 9,
+      "title": "Board member Code of Conduct",
+      "description": null,
+      "categories": [6],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    }
+  ]
+}

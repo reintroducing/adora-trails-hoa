@@ -27,7 +27,7 @@ export default [
         title: '',
         image: null,
         company: 1,
-        active: false,
+        active: true,
     },
     {
         id: 4,

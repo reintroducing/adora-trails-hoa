@@ -10,6 +10,11 @@ const initialState = {
         {id: 3, name: 'Construction'},
         {id: 4, name: 'Communication'},
         {id: 5, name: 'Design'},
+        {id: 6, name: 'Personnel'},
+        {id: 7, name: 'Events'},
+        {id: 8, name: 'Finance'},
+        {id: 9, name: 'Pest Control'},
+        {id: 10, name: 'Pool'},
     ],
     results: [
         {id: 1, name: 'Carried'},
