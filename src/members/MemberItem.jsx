@@ -17,8 +17,16 @@ const MemberItem = ({
 
     return (
         <div className={css.root}>
-            <Avatar classNameAvatar={css.avatar} size="xxl" onClick={onClick}>
-                <IconUser01 />
+            <Avatar
+                classNameAvatar={css.avatar}
+                size="xxl"
+                {...(image && {
+                    imageSrc: image,
+                    imageAlt: `${firstName} ${lastName}`,
+                })}
+                onClick={onClick}
+            >
+                {!image && <IconUser01 />}
             </Avatar>
             <Text className={css.name} size="lg" weight="medium">
                 {firstName} {lastName}
