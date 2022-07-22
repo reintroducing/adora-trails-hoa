@@ -1,0 +1,249 @@
+{
+  "attendees": [3, 4, 5, 6, 7, 8, 9],
+  "absentees": [],
+  "management": [4, 2],
+  "minutes": "https://www.adoratrailscoa.com/ResourceCenter/Download/22933/10_202021%20open?doc_id=2994339&print=1&view=1",
+  "notes": "Shane Musgrove left the meeting at 7:56 PM.",
+  "motions": [
+    {
+      "title": "Easement request",
+      "description": "Invite attorneys and potential entity for an in-person meeting to discuss.",
+      "categories": [2],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Board member Code of Conduct",
+      "description": null,
+      "categories": [11],
+      "votes": {
+        "for": [],
+        "against": [],
+        "abstain": []
+      },
+      "result": 3,
+      "notes": "Tabled for further revision."
+    },
+    {
+      "title": "Insurance policy",
+      "description": "Stay with Mahoney Group.",
+      "categories": [6],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Clubhouse roof inspection and bids",
+      "description": "Approve Five Guys' bid in full.",
+      "categories": [3],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Pump system reno",
+      "description": "Terminate contract with GMI and pursue the refurbish bid.",
+      "categories": [2],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Outdoor fireplaces",
+      "description": "Adopt proposed verbiage for Fireplaces.",
+      "categories": [5],
+      "votes": {
+        "for": [4, 5, 6, 7, 8, 9],
+        "against": [3],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Plant screening materials",
+      "description": "Table discussion and add to next Exec. Meeting for clarification.",
+      "categories": [5],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Yard screening materials",
+      "description": "Add sunshade discussion to next Exec. Meeting.",
+      "categories": [5],
+      "votes": {
+        "for": [3, 5, 6, 7, 8, 9],
+        "against": [4],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Clubhouse holiday hours",
+      "description": "Approve with limited staff on days closing at 4pm.",
+      "categories": [6],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Rec Pro software updates",
+      "description": "Approve cloud storage.",
+      "categories": [1],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Clubhouse camera DVR recorder",
+      "description": null,
+      "categories": [1],
+      "votes": {
+        "for": [],
+        "against": [],
+        "abstain": []
+      },
+      "result": 3,
+      "notes": null
+    },
+    {
+      "title": "CD maturation",
+      "description": "Approve",
+      "categories": [8],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Pool access for caregivers",
+      "description": null,
+      "categories": [6],
+      "votes": {
+        "for": [],
+        "against": [],
+        "abstain": []
+      },
+      "result": 3,
+      "notes": null
+    },
+    {
+      "title": "Fish restocking",
+      "description": "Restock with bass",
+      "categories": [2],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Storm damage stump removal & tree replacement",
+      "description": null,
+      "categories": [1],
+      "votes": {
+        "for": [3, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Fall planting",
+      "description": null,
+      "categories": [2],
+      "votes": {
+        "for": [3, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Winter granite installation",
+      "description": null,
+      "categories": [3],
+      "votes": {
+        "for": [3, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "CPA selection for 2022",
+      "description": "Request a compilation report.",
+      "categories": [6, 8],
+      "votes": {
+        "for": [3, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Online fitness program",
+      "description": "Approve Studio Sweet.",
+      "categories": [6],
+      "votes": {
+        "for": [3, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Park signs verbiage",
+      "description": "Approve park name and logo on signs.",
+      "categories": [1],
+      "votes": {
+        "for": [3, 5, 6, 8],
+        "against": [7, 9],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    }
+  ]
+}

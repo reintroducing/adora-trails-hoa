@@ -6,7 +6,6 @@
   "notes": null,
   "motions": [
     {
-      "id": 1,
       "title": "Mechanical seal bid",
       "description": null,
       "categories": [1],
@@ -19,7 +18,6 @@
       "notes": null
     },
     {
-      "id": 2,
       "title": "Clubhouse exit signs",
       "description": "Approve signs for $69.90 each.",
       "categories": [1],
@@ -32,7 +30,6 @@
       "notes": null
     },
     {
-      "id": 3,
       "title": "Swing replacement bid",
       "description": null,
       "categories": [1],
@@ -45,7 +42,6 @@
       "notes": null
     },
     {
-      "id": 4,
       "title": "HVAC repair bid",
       "description": null,
       "categories": [1],
@@ -58,7 +54,6 @@
       "notes": null
     },
     {
-      "id": 5,
       "title": "Formation of the flag committee",
       "description": "Approve the charter as presented.",
       "categories": [6],
@@ -71,7 +66,6 @@
       "notes": null
     },
     {
-      "id": 6,
       "title": "Formation of the flag committee",
       "description": "Approve the charter as revised.",
       "categories": [6],
@@ -84,7 +78,6 @@
       "notes": "Shane, Bill and Michelle do not feel the responsibility should be split between two parties."
     },
     {
-      "id": 7,
       "title": "Formation of the flag committee",
       "description": "Approve 3 committee members.",
       "categories": [6],
@@ -97,7 +90,6 @@
       "notes": null
     },
     {
-      "id": 8,
       "title": "Screening material guidelines",
       "description": null,
       "categories": [5],
@@ -110,7 +102,6 @@
       "notes": null
     },
     {
-      "id": 9,
       "title": "Board member Code of Conduct",
       "description": null,
       "categories": [6],

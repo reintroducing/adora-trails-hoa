@@ -1,0 +1,165 @@
+{
+  "attendees": [3, 4, 5, 6, 7, 8, 9],
+  "absentees": [],
+  "management": [4, 2],
+  "minutes": "https://www.adoratrailscoa.com/ResourceCenter/Download/22933/09_152021%20open%20approved?doc_id=2974545&print=1&view=1",
+  "notes": "Tracy Small joined via Zoom.",
+  "motions": [
+    {
+      "title": "Basketball goal guidelines",
+      "description": "Remove \"must be lowered when not in use\" from basketball goal design guidelines.",
+      "categories": [5],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Facility rules – gym attire",
+      "description": "Adopt new language for facility rules: \"Shirts must be worn in the fitness center at all times\".",
+      "categories": [1],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Park signs",
+      "description": "Approve verbiage.",
+      "categories": [6],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "View fence painting bids",
+      "description": "Approve CertaPro to complete fence painting.",
+      "categories": [2],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Online work out streaming service",
+      "description": "Request a 30 day trial and price match prior to accepting a new service.",
+      "categories": [6],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Insurance renewal",
+      "description": "Approve Mahoney Group.",
+      "categories": [6],
+      "votes": {
+        "for": [3, 4, 5, 6, 8, 9],
+        "against": [7],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Janitorial contract renewal & increase",
+      "description": "Approve increase for janitorial services contract.",
+      "categories": [6],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "2022 drafted budget",
+      "description": "Approve 2022 budget.",
+      "categories": [8],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Amazon locker",
+      "description": "Approve installing an Amazon locker inside the clubhouse.",
+      "categories": [1],
+      "votes": {
+        "for": [],
+        "against": [3, 4, 5, 6, 7, 8, 9],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Short term rental enforcement policy",
+      "description": "Approve new rental restriction violations to fine policy.",
+      "categories": [3],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Parking guidelines",
+      "description": "Approve new language for parking guidelines.",
+      "categories": [11],
+      "votes": {
+        "for": [3, 5, 6],
+        "against": [4, 8, 7, 9],
+        "abstain": []
+      },
+      "result": 2,
+      "notes": null
+    },
+    {
+      "title": "Board member Code of Conduct",
+      "description": null,
+      "categories": [6],
+      "votes": {
+        "for": [],
+        "against": [],
+        "abstain": []
+      },
+      "result": 3,
+      "notes": "Tabled to allow further board review."
+    },
+    {
+      "title": "Final review and approval of the reserve study",
+      "description": null,
+      "categories": [2],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    }
+  ]
+}

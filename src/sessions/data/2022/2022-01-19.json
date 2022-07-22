@@ -6,7 +6,6 @@
   "notes": null,
   "motions": [
     {
-      "id": 1,
       "title": "Current financial statement",
       "description": "Move $250,000 from operating account to reserve account in the form of a CD.",
       "categories": [8],
@@ -19,7 +18,6 @@
       "notes": null
     },
     {
-      "id": 2,
       "title": "Repair shade sails at half basketball court",
       "description": null,
       "categories": [1],
@@ -32,7 +30,6 @@
       "notes": null
     },
     {
-      "id": 3,
       "title": "Activities & events committee",
       "description": "Request band reduce price $175 to accommodate special policy for event.",
       "categories": [7],
@@ -45,7 +42,6 @@
       "notes": null
     },
     {
-      "id": 4,
       "title": "Activities & events committee",
       "description": "Request band cover cost of policy with a plan B of splitting and plan C of Adora Trails taking the cost.",
       "categories": [7],
@@ -58,7 +54,6 @@
       "notes": null
     },
     {
-      "id": 5,
       "title": "HVAC repair bid",
       "description": "Approve bid for $3,134.56 from Spectrum to repair HVAC system.",
       "categories": [1],
@@ -71,7 +66,6 @@
       "notes": null
     },
     {
-      "id": 6,
       "title": "Sulfur application bid",
       "description": "Approve bid for $7,500 from Four Peaks for sulfur treatment in turf.",
       "categories": [2],
@@ -84,7 +78,6 @@
       "notes": null
     },
     {
-      "id": 7,
       "title": "Boulder installation bid",
       "description": "Approve bid for $4,000 from Four Peaks for boulder install in community.",
       "categories": [2],
@@ -97,7 +90,6 @@
       "notes": null
     },
     {
-      "id": 8,
       "title": "Dry well clean out bid",
       "description": "Approve bid for $54,000 from Torrent Recourses for dry well repairs.",
       "categories": [2],
@@ -110,7 +102,6 @@
       "notes": null
     },
     {
-      "id": 9,
       "title": "Update to facility rules for caregiver access",
       "description": "Approve with amendment to rules to state ID verification is required as well as requiring care giver to have community member present to have access to facilities.",
       "categories": [6],
@@ -123,7 +114,6 @@
       "notes": null
     },
     {
-      "id": 10,
       "title": "Update to rental regulations for business promotional events",
       "description": "Approve with grammar amendment from \"can determine\" to \"will determine\".",
       "categories": [7],
@@ -136,7 +126,6 @@
       "notes": null
     },
     {
-      "id": 11,
       "title": "Pest control contract bids",
       "description": "Approve Dragonfly for weekly gopher treatment and Cimex for monthly pest, annual termite, and quarterly spider.",
       "categories": [9],
@@ -149,7 +138,6 @@
       "notes": null
     },
     {
-      "id": 12,
       "title": "Playground contract bids",
       "description": "Approve HOA playground for $750 quarterly service provided that they can edit safety inspections to quarterly.",
       "categories": [1],
@@ -162,7 +150,6 @@
       "notes": null
     },
     {
-      "id": 13,
       "title": "Pool maintenance bids",
       "description": "Approve RNR for $2,495 for monthly service.",
       "categories": [10],
@@ -175,7 +162,6 @@
       "notes": null
     },
     {
-      "id": 14,
       "title": "Pool maintenance bids",
       "description": "Approve Aztec Pools for $1,200 (winter) and $2,400 (summer) for monthly service.",
       "categories": [10],

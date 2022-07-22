@@ -6,7 +6,6 @@
   "notes": "Board instructed Rachel to look into new audio visual equipment.",
   "motions": [
     {
-      "id": 1,
       "title": "May tree trimming",
       "description": null,
       "categories": [2],
@@ -19,7 +18,6 @@
       "notes": null
     },
     {
-      "id": 2,
       "title": "Meeting room blinds",
       "description": "Approve Southwest Blinds for $6,466.30.",
       "categories": [1],
@@ -32,7 +30,6 @@
       "notes": null
     },
     {
-      "id": 3,
       "title": "Golf cart options",
       "description": "Approve cost for lithium batteries.",
       "categories": [1],
@@ -45,7 +42,6 @@
       "notes": null
     },
     {
-      "id": 4,
       "title": "Fitness center equipment",
       "description": "To approve Advanced Exercise for $5,107.04.",
       "categories": [1],
@@ -58,7 +54,6 @@
       "notes": null
     },
     {
-      "id": 5,
       "title": "Pool light bid",
       "description": "Approve bid for $1,466.66.",
       "categories": [10],

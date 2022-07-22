@@ -6,7 +6,6 @@
   "notes": "Talon Smith joined via Zoom and left at 6:40 PM. Shane Musgrove resigned from the Board. The Board resolved to keep the water temperatures at 83 degrees year round.",
   "motions": [
     {
-      "id": 1,
       "title": "Revisions to the Design Guidelines – Exterior Painting",
       "description": "Approve revisions with noted addition.",
       "categories": [5],
@@ -19,7 +18,6 @@
       "notes": null
     },
     {
-      "id": 2,
       "title": "Approve the Holiday Lighting Committee Charter as revised",
       "description": null,
       "categories": [6],
@@ -32,7 +30,6 @@
       "notes": null
     },
     {
-      "id": 3,
       "title": "Approve the parking patrol bid presented by Urban Tactical",
       "description": null,
       "categories": [6],
@@ -45,7 +42,6 @@
       "notes": null
     },
     {
-      "id": 4,
       "title": "Approve the bid for June tree trimming as presented by Four Peaks",
       "description": null,
       "categories": [2],
@@ -58,7 +54,6 @@
       "notes": null
     },
     {
-      "id": 5,
       "title": "Approve the bid from AmeriZona for tinting 2 meeting room doors",
       "description": null,
       "categories": [1],
@@ -71,7 +66,6 @@
       "notes": null
     },
     {
-      "id": 6,
       "title": "Approve the bid from ALD for pool chair re-strapping",
       "description": null,
       "categories": [1],
@@ -84,7 +78,6 @@
       "notes": null
     },
     {
-      "id": 7,
       "title": "Approve the bid for metal painting as presented by Certa Pro",
       "description": null,
       "categories": [1],
@@ -97,7 +90,6 @@
       "notes": null
     },
     {
-      "id": 8,
       "title": "Revisions to the Design Guidelines – Driveways and Walkways",
       "description": "Approve the revisions with noted corrections.",
       "categories": [5],
