@@ -5,6 +5,7 @@ import Badge from '@patientpattern/coat/ui/Badge';
 import Text from '@patientpattern/coat/ui/Text';
 import {useCommonStore} from 'common/store';
 import {useMembersStore} from 'members/store';
+import VotingHistory from './VotingHistory';
 import css from './Member.module.scss';
 
 const Member = () => {
@@ -18,7 +19,7 @@ const Member = () => {
         isManager ? getManagerById(Number(id)) : getDirectorById(Number(id));
 
     return (
-        <>
+        <div className={css.root}>
             <div className={css.details}>
                 <Avatar
                     classNameAvatar={css.avatar}
@@ -65,7 +66,8 @@ const Member = () => {
                     dangerouslySetInnerHTML={{__html: bio}}
                 />
             )}
-        </>
+            {!isManager && <VotingHistory id={parseInt(id, 10)} />}
+        </div>
     );
 };
 

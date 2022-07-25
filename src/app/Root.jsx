@@ -4,7 +4,7 @@ import Home from 'home';
 import Sessions from 'sessions';
 import SessionYear from 'sessions/SessionYear';
 import Members from 'members';
-import Member from 'members/Member';
+import Member from 'members/member';
 import App from './App';
 
 const Root = () => (

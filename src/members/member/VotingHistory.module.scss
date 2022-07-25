@@ -1,0 +1,24 @@
+.root {
+    margin-top: 24px;
+}
+
+.controls {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+}
+
+.yearSelect {
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    margin: 0 16px 0 0;
+}
+
+.yearLabel {
+    margin: 0 8px 0 0;
+}
+
+.votes {
+    margin-top: 24px;
+}

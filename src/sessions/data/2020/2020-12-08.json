@@ -1,130 +1,165 @@
 {
-  "id": "2020-12-08",
-  "attendees": [5, 6, 7, 8, 9, 10],
-  "absentees": [4],
-  "management": [4, 5, 6],
-  "minutes": "https://www.adoratrailscoa.com/ResourceCenter/Download/22933/adoratrailsbodminutes42022approved?doc_id=3047784&print=1&view=1",
-  "notes": "Michelle Hunter arrived at 6:07 PM.",
+  "attendees": [3, 4, 5, 6, 7, 9],
+  "absentees": [],
+  "management": [4, 2],
+  "minutes": "https://www.adoratrailscoa.com/ResourceCenter/Download/22933/09_152021%20open%20approved?doc_id=2974545&print=1&view=1",
+  "notes": "Tracy Small joined via Zoom.",
   "motions": [
     {
-      "id": 1,
-      "title": "Upgrade to AED equipment",
-      "description": "Approve upgrade for +$10/month.",
-      "categories": [1],
-      "votes": {
-        "for": [5, 6, 7, 8, 9, 10],
-        "against": []
-      },
-      "result": 1,
-      "notes": null
-    },
-    {
-      "id": 2,
-      "title": "Half basketball court shade structures",
-      "description": "Approve Eaglewing Iron Works for $2,160.",
-      "categories": [1],
-      "votes": {
-        "for": [5, 6, 7, 8, 9, 10],
-        "against": []
-      },
-      "result": 1,
-      "notes": null
-    },
-    {
-      "id": 3,
-      "title": "Audio visual equipment for meetings",
-      "description": null,
-      "categories": [1],
-      "votes": {
-        "for": [],
-        "against": []
-      },
-      "result": 3,
-      "notes": "Board tabled item pending additional info."
-    },
-    {
-      "id": 4,
-      "title": "Tree policy",
-      "description": "",
-      "categories": [2],
-      "votes": {
-        "for": [5, 6, 7, 8, 9, 10],
-        "against": []
-      },
-      "result": 1,
-      "notes": null
-    },
-    {
-      "id": 5,
-      "title": "Additional gym equipment",
-      "description": "Approve bid from Advanced Exercise for $9,217.73 + $350 for install.",
-      "categories": [1],
-      "votes": {
-        "for": [5, 6, 7, 8, 9, 10],
-        "against": []
-      },
-      "result": 1,
-      "notes": null
-    },
-    {
-      "id": 6,
-      "title": "Sidewalk grinding/replacement and ramada pillars",
-      "description": "Approve First Rate Maintenance for $13,600.",
-      "categories": [3],
-      "votes": {
-        "for": [5, 6, 7, 8, 9, 10],
-        "against": []
-      },
-      "result": 1,
-      "notes": null
-    },
-    {
-      "id": 7,
-      "title": "Turf de-thatching bid",
-      "description": "Approve Four Peak bid for $6,040.",
-      "categories": [2],
-      "votes": {
-        "for": [5, 6, 7, 8, 9, 10],
-        "against": []
-      },
-      "result": 1,
-      "notes": null
-    },
-    {
-      "id": 8,
-      "title": "Tree replacement",
-      "description": "Approve not to exceed $7,500 for trees on West Canal.",
-      "categories": [2],
-      "votes": {
-        "for": [5, 6, 7, 8, 9, 10],
-        "against": []
-      },
-      "result": 1,
-      "notes": null
-    },
-    {
-      "id": 9,
-      "title": "Revisions to the Design Guidelines",
-      "description": null,
+      "title": "Basketball goal guidelines",
+      "description": "Remove \"must be lowered when not in use\" from basketball goal design guidelines.",
       "categories": [5],
       "votes": {
-        "for": [],
-        "against": []
+        "for": [3, 4, 5, 6, 7, 9],
+        "against": [],
+        "abstain": []
       },
-      "result": 3,
-      "notes": "Board tabled item pending additional info."
+      "result": 1,
+      "notes": null
     },
     {
-      "id": 10,
-      "title": "Management access to Facebook",
-      "description": null,
-      "categories": [4],
+      "title": "Facility rules – gym attire",
+      "description": "Adopt new language for facility rules: \"Shirts must be worn in the fitness center at all times\".",
+      "categories": [1],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Park signs",
+      "description": "Approve verbiage.",
+      "categories": [6],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "View fence painting bids",
+      "description": "Approve CertaPro to complete fence painting.",
+      "categories": [2],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Online work out streaming service",
+      "description": "Request a 30 day trial and price match prior to accepting a new service.",
+      "categories": [6],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Insurance renewal",
+      "description": "Approve Mahoney Group.",
+      "categories": [6],
+      "votes": {
+        "for": [3, 4, 5, 6, 9],
+        "against": [7],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Janitorial contract renewal & increase",
+      "description": "Approve increase for janitorial services contract.",
+      "categories": [6],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "2022 drafted budget",
+      "description": "Approve 2022 budget.",
+      "categories": [8],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Amazon locker",
+      "description": "Approve installing an Amazon locker inside the clubhouse.",
+      "categories": [1],
       "votes": {
         "for": [],
-        "against": []
+        "against": [3, 4, 5, 6, 7, 9],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Short term rental enforcement policy",
+      "description": "Approve new rental restriction violations to fine policy.",
+      "categories": [3],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Parking guidelines",
+      "description": "Approve new language for parking guidelines.",
+      "categories": [11],
+      "votes": {
+        "for": [3, 5, 6],
+        "against": [4, 7, 9],
+        "abstain": []
+      },
+      "result": 2,
+      "notes": null
+    },
+    {
+      "title": "Board member Code of Conduct",
+      "description": null,
+      "categories": [6],
+      "votes": {
+        "for": [],
+        "against": [],
+        "abstain": []
       },
       "result": 3,
-      "notes": "Board tabled item pending additional info."
+      "notes": "Tabled to allow further board review."
+    },
+    {
+      "title": "Final review and approval of the reserve study",
+      "description": null,
+      "categories": [2],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
     }
   ]
 }

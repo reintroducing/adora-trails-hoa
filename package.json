@@ -3,17 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "eslintConfig": {
-    "extends": "./node_modules/@patientpattern/configs/packages/eslint",
-    "rules": {
-      "node/no-extraneous-import": [
-        2,
-        {
-          "allowModules": [
-            "react-table"
-          ]
-        }
-      ]
-    }
+    "extends": "./node_modules/@patientpattern/configs/packages/eslint"
   },
   "prettier": "./node_modules/@patientpattern/configs/packages/prettier",
   "stylelint": {
@@ -30,19 +20,19 @@
     "build": "hal -m build"
   },
   "devDependencies": {
-    "@patientpattern/configs": "2.0.1",
-    "@patientpattern/hal": "3.1.0",
+    "@patientpattern/configs": "2.1.0",
+    "@patientpattern/hal": "3.2.0",
     "regenerator-runtime": "0.13.9"
   },
   "dependencies": {
-    "@patientpattern/coat": "2.7.0",
-    "@patientpattern/utils": "0.8.1",
+    "@patientpattern/coat": "2.9.0",
+    "@patientpattern/utils": "0.9.0",
     "cnbuilder": "3.1.0",
     "lodash": "4.17.21",
     "prop-types": "15.8.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-router-dom": "6.3.0",
-    "zustand": "4.0.0-rc.1"
+    "zustand": "4.0.0-rc.4"
   }
 }

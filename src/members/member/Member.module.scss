@@ -1,4 +1,7 @@
-@use "@patientpattern/coat/core/mixins/media";
+.root {
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
 .details {
     display: flex;

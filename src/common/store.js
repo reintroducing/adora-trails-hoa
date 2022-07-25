@@ -18,9 +18,9 @@ const initialState = {
         {id: 11, name: 'Parking'},
     ],
     results: [
-        {id: 1, name: 'Carried'},
-        {id: 2, name: 'Failed'},
-        {id: 3, name: 'Tabled'},
+        {id: 1, name: 'Carried', variant: 'success'},
+        {id: 2, name: 'Failed', variant: 'error'},
+        {id: 3, name: 'Tabled', variant: 'warning'},
     ],
 };
 

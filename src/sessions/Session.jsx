@@ -12,15 +12,10 @@ import Expand from 'common/table/Expand';
 import {useMembersStore} from 'members/store';
 import css from './Session.module.scss';
 
-const RESULTS = {
-    1: 'success',
-    2: 'error',
-    3: 'warning',
-};
-
 const Session = ({
     data: {attendees, absentees, management, minutes, notes, motions},
 }) => {
+    const results = useCommonStore(state => state.results);
     const getCategoryById = useCommonStore(state => state.getCategoryById);
     const getResultById = useCommonStore(state => state.getResultById);
     const getDirectorById = useMembersStore(state => state.getDirectorById);
@@ -50,7 +45,9 @@ const Session = ({
                 },
             }) => (
                 <span className={css.resultBadge}>
-                    <Badge variant={RESULTS[value]}>
+                    <Badge
+                        variant={results.find(({id}) => value === id).variant}
+                    >
                         {getResultById(value).name}
                     </Badge>
                     {resultNotes && (

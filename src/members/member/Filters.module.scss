@@ -1,0 +1,13 @@
+.actions {
+    display: flex;
+
+    button {
+        &:first-child {
+            margin-right: 6px;
+        }
+
+        &:last-child {
+            margin-left: 6px;
+        }
+    }
+}

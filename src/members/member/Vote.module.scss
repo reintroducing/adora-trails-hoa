@@ -1,0 +1,39 @@
+.root {
+    display: flex;
+    margin-top: 8px;
+
+    &:first-child {
+        margin-top: 0;
+    }
+}
+
+.title {
+    > p {
+        margin-bottom: 0;
+    }
+}
+
+.date {
+    flex-shrink: 0;
+    width: 100px;
+}
+
+.result1 {
+    color: var(--color-success-500);
+}
+
+.result2 {
+    color: var(--color-error-500);
+}
+
+.result3 {
+    color: var(--color-warning-500);
+}
+
+.details {
+    margin-top: 12px;
+
+    > p {
+        margin-bottom: 0;
+    }
+}
