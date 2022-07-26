@@ -18,44 +18,35 @@ const VotingHistory = ({id}) => {
     const getSessionsByYear = useSessionsStore(
         state => state.getSessionsByYear
     );
-    const [currentMotions, setCurrentMotions] = useState(() => {
-        const sessions = getSessionsByYear(getYears()[0]);
-
-        return getMemberMotions(id, sessions);
-    });
-    const [filterFormValues, setFilterFormValues] = useState(null);
+    const [filters, setFilters] = useState(null);
     const [numActiveFilters, setNumActiveFilters] = useState(0);
+    const [sessions, setSessions] = useState(getSessionsByYear(getYears()[0]));
+    const [currentMotions, setCurrentMotions] = useState(
+        getMemberMotions({id, sessions, filters})
+    );
     const onYearChange = ({target: {value}}) => {
-        const sessions = getSessionsByYear(value);
+        const newSessions = getSessionsByYear(value);
 
-        setCurrentMotions(getMemberMotions(id, sessions));
+        setSessions(newSessions);
+        setCurrentMotions(
+            getMemberMotions({id, sessions: newSessions, filters})
+        );
     };
     const onFiltersClick = () => {
         filtersRef.current.toggle();
     };
     const onResetFilters = () => {
-        setFilterFormValues(null);
+        setFilters(null);
         setNumActiveFilters(0);
+        setCurrentMotions(getMemberMotions({id, sessions, filters: null}));
     };
-    const onApplyFilters = filters => {
-        const defaultValues = {};
-        const allFilters = [];
-
-        console.log(filters);
-
-        Object.keys(filters).forEach(key => {
-            const value = filters[key];
-
-            defaultValues[key] = value;
-            allFilters.push({id: key, value});
-        });
-
-        setFilterFormValues(defaultValues);
-        setNumActiveFilters(allFilters.length);
+    const onApplyFilters = newFilters => {
+        setFilters(newFilters);
+        setNumActiveFilters(Object.keys(newFilters).length);
+        setCurrentMotions(
+            getMemberMotions({id, sessions, filters: newFilters})
+        );
     };
-
-    console.log(filterFormValues);
-    console.log(numActiveFilters);
 
     return (
         <div className={css.root}>
@@ -99,14 +90,15 @@ const VotingHistory = ({id}) => {
                     ))
                 ) : (
                     <Text>
-                        No voting history for this year. Try viewing a different
-                        year.
+                        No voting history available. Try viewing a different
+                        year or, if you&apos;ve applied filters,
+                        adjusting/resetting them.
                     </Text>
                 )}
             </div>
             <Filters
                 ref={filtersRef}
-                formValues={filterFormValues}
+                formValues={filters}
                 onReset={onResetFilters}
                 onApply={onApplyFilters}
             />

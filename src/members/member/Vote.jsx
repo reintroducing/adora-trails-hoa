@@ -10,18 +10,9 @@ const VOTE_TYPES = {
     3: 'Abstained',
 };
 
-const Vote = ({
-    id,
-    date,
-    title,
-    description,
-    result,
-    categories,
-    votes: {for: votesFor, against, abstain},
-}) => {
+const Vote = ({id, date, title, description, result, categories, vote}) => {
     const results = useCommonStore(state => state.results);
     const getCategoryById = useCommonStore(state => state.getCategoryById);
-    const memberVote = against.includes(id) ? 2 : abstain.includes(id) ? 3 : 1;
 
     return (
         <div className={css.root}>
@@ -40,11 +31,11 @@ const Vote = ({
                             classNameRoot={css.badge}
                             variant={
                                 results.find(
-                                    ({id: resultId}) => memberVote === resultId
+                                    ({id: resultId}) => vote === resultId
                                 ).variant
                             }
                         >
-                            {VOTE_TYPES[memberVote]}
+                            {VOTE_TYPES[vote]}
                         </Badge>
                     </Text>
                     <Text size="sm">
@@ -69,11 +60,7 @@ Vote.propTypes = {
     description: PropTypes.string,
     result: PropTypes.number.isRequired,
     categories: PropTypes.arrayOf(PropTypes.number).isRequired,
-    votes: PropTypes.shape({
-        for: PropTypes.arrayOf(PropTypes.number),
-        against: PropTypes.arrayOf(PropTypes.number),
-        abstain: PropTypes.arrayOf(PropTypes.number),
-    }).isRequired,
+    vote: PropTypes.number.isRequired,
 };
 
 export default Vote;
