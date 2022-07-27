@@ -1,0 +1,129 @@
+{
+  "attendees": [3, 4, 5, 6, 7, 8, 9],
+  "absentees": [],
+  "management": [4, 2, 6],
+  "minutes": "https://www.adoratrailscoa.com/ResourceCenter/Download/22933/05_192021%20open%20approved?doc_id=2951371&print=1&view=1",
+  "notes": null,
+  "motions": [
+    {
+      "title": "Anti-duck measures",
+      "description": "Purchase of two spinners for the pool.",
+      "categories": [10],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Turf dethatching bid",
+      "description": null,
+      "categories": [2],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "July tree trimming",
+      "description": null,
+      "categories": [2],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Pebble Tech bid",
+      "description": null,
+      "categories": [10],
+      "votes": {
+        "for": [],
+        "against": [],
+        "abstain": []
+      },
+      "result": 3,
+      "notes": "Tabled at the vendor's discretion."
+    },
+    {
+      "title": "Quarterly/bi-annual rototill & sand sifting",
+      "description": null,
+      "categories": [2],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Splash pad bucket replacement bid",
+      "description": "Replace pole and buckets to like new after two bids, the lower one without additional board approval.",
+      "categories": [10],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Marquee signs",
+      "description": "Instead of using A-frames.",
+      "categories": [1],
+      "votes": {
+        "for": [],
+        "against": [3, 4, 5, 6, 7, 8, 9],
+        "abstain": []
+      },
+      "result": 2,
+      "notes": null
+    },
+    {
+      "title": "Cameras at basketball court",
+      "description": null,
+      "categories": [1],
+      "votes": {
+        "for": [],
+        "against": [3, 4, 5, 6, 7, 8, 9],
+        "abstain": []
+      },
+      "result": 2,
+      "notes": null
+    },
+    {
+      "title": "Additional gym rack",
+      "description": "Priced under $500.",
+      "categories": [1],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Additional heavier weights",
+      "description": "Up to 100lb if priced under $500.",
+      "categories": [1],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    }
+  ]
+}

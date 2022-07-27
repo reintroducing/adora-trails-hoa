@@ -1,0 +1,69 @@
+{
+  "attendees": [3, 4, 6, 7, 8, 9],
+  "absentees": [5],
+  "management": [4, 2],
+  "minutes": "https://www.adoratrailscoa.com/ResourceCenter/Download/22933/08_182021%20open%20approved?doc_id=2959086&print=1&view=1",
+  "notes": "Michelle Hunter arrived at 6:57 PM.",
+  "motions": [
+    {
+      "title": "License Renewal for the router equipment",
+      "description": null,
+      "categories": [1],
+      "votes": {
+        "for": [3, 4, 6, 7, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Fine policy update - parking on sidewalks",
+      "description": null,
+      "categories": [11],
+      "votes": {
+        "for": [3, 4, 6, 7, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Short term rental enforcement policy",
+      "description": null,
+      "categories": [12],
+      "votes": {
+        "for": [],
+        "against": [3, 4, 6, 7, 9],
+        "abstain": []
+      },
+      "result": 2,
+      "notes": "Management to do more research and review at next meeting."
+    },
+    {
+      "title": "Parking guidelines",
+      "description": null,
+      "categories": [11],
+      "votes": {
+        "for": [],
+        "against": [3, 4, 6, 7, 8, 9],
+        "abstain": []
+      },
+      "result": 2,
+      "notes": "Management to update for oversized vehicles and review at next meeting."
+    },
+    {
+      "title": "Management contract",
+      "description": "Retain AAM.",
+      "categories": [6],
+      "votes": {
+        "for": [3, 4, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    }
+  ]
+}

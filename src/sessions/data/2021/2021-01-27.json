@@ -1,0 +1,153 @@
+{
+  "attendees": [3, 4, 5, 6, 7],
+  "absentees": [],
+  "management": [4, 2],
+  "minutes": "https://www.adoratrailscoa.com/ResourceCenter/Download/22933/01_272021%20open%20approved?doc_id=2892412&print=1&view=1",
+  "notes": null,
+  "motions": [
+    {
+      "title": "Bistro light survey results & guidelines",
+      "description": "Poles placed in rear yards must be no more than 8ft high starting from the base of the home. Poles must have a 3ft setback from all property lines.",
+      "categories": [5],
+      "votes": {
+        "for": [3, 4, 5, 6, 7],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Bistro light survey results & guidelines",
+      "description": "Walls and/or Iron Fencing must not be modified in order to attach lighting. (Modified = any changes that would cause permanent modification to the wall/fence, including but not limit to drilling holes, screws, nails, adhesives, etc).",
+      "categories": [5],
+      "votes": {
+        "for": [3, 4, 5, 6, 7],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Bistro light survey results & guidelines",
+      "description": "All final installs must provide photo to management for compliance.",
+      "categories": [5],
+      "votes": {
+        "for": [],
+        "against": [3, 4, 5, 6, 7],
+        "abstain": []
+      },
+      "result": 2,
+      "notes": null
+    },
+    {
+      "title": "Parking patrol guidelines",
+      "description": null,
+      "categories": [11],
+      "votes": {
+        "for": [3, 4, 5, 6, 7],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Light revisions to design guidelines",
+      "description": "Permanent holiday lights may be attached to houses subject to approval by the Architectural Committee. The lights must be hidden from view by existing flashing, gutters, or custom channels attached to the roofline. All wiring must be hidden and the light bulbs should be almost invisible from the street or neighboring properties. The channel's color needs to match, or be complementary to the trim on the house. The lights can only be lighted during a time period no more than thirty (30) days before or more than twenty-one (21) day after any nationally recognized holiday as determined by the Architectural Committee.",
+      "categories": [5],
+      "votes": {
+        "for": [3, 4, 5, 6, 7],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Monument holiday decorations",
+      "description": "Double the budget (from $1,000 to $2,000) for additional monument lights/decor.",
+      "categories": [5],
+      "votes": {
+        "for": [3, 4, 5, 6, 7],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Sulfur application",
+      "description": "Approve $6,200 bid from Four Peaks.",
+      "categories": [2],
+      "votes": {
+        "for": [3, 4, 5, 6, 7],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Fountain filter replacement",
+      "description": null,
+      "categories": [1],
+      "votes": {
+        "for": [],
+        "against": [],
+        "abstain": []
+      },
+      "result": 3,
+      "notes": "Table until more bids can be obtained and warranty information can be confirmed."
+    },
+    {
+      "title": "Pump system maintenance contract",
+      "description": null,
+      "categories": [1],
+      "votes": {
+        "for": [],
+        "against": [],
+        "abstain": []
+      },
+      "result": 3,
+      "notes": "Table until more bids can be obtained."
+    },
+    {
+      "title": "Window coverings in gym",
+      "description": null,
+      "categories": [1, 13],
+      "votes": {
+        "for": [],
+        "against": [],
+        "abstain": []
+      },
+      "result": 3,
+      "notes": "Table until more bids can be obtained."
+    },
+    {
+      "title": "Drinking fountain installation",
+      "description": null,
+      "categories": [1, 13],
+      "votes": {
+        "for": [],
+        "against": [],
+        "abstain": []
+      },
+      "result": 3,
+      "notes": "Table until more bids can be obtained."
+    },
+    {
+      "title": "Wall repairs",
+      "description": "Approve Arizona Experts bid for $6,150.30.",
+      "categories": [3],
+      "votes": {
+        "for": [3, 4, 5, 6, 7],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    }
+  ]
+}

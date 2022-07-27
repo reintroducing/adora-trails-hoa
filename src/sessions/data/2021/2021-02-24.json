@@ -1,0 +1,69 @@
+{
+  "attendees": [3, 4, 5, 6, 7, 9],
+  "absentees": [],
+  "management": [4, 2],
+  "minutes": "https://www.adoratrailscoa.com/ResourceCenter/Download/22933/02_242021%20open%20approved?doc_id=2892414&print=1&view=1",
+  "notes": null,
+  "motions": [
+    {
+      "title": "Revised facility regulations",
+      "description": null,
+      "categories": [13],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Vendor Bid: Fitness equipment maintenance",
+      "description": null,
+      "categories": [1],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Vendor Bid: Granite installation",
+      "description": null,
+      "categories": [3],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Vendor Bid: Tree drenching",
+      "description": null,
+      "categories": [2],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Maintenance Bid: Boom lift rental & miscellaneous repairs",
+      "description": null,
+      "categories": [3],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    }
+  ]
+}

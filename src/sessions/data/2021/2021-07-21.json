@@ -1,0 +1,153 @@
+{
+  "attendees": [3, 4, 6, 7, 8, 9],
+  "absentees": [5],
+  "management": [4, 2],
+  "minutes": "https://www.adoratrailscoa.com/ResourceCenter/Download/22933/07_212021%20open%20approved?doc_id=2949197&print=1&view=1",
+  "notes": "Michelle Hunter arrived at 6:57 PM.",
+  "motions": [
+    {
+      "title": "Installation of doggie stations",
+      "description": null,
+      "categories": [1],
+      "votes": {
+        "for": [3, 4, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Additional lights at playgrounds",
+      "description": "Installation of the same or similar lighting to all playgrounds.",
+      "categories": [1],
+      "votes": {
+        "for": [3, 4, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Cameras at clubhouse",
+      "description": "Installation of cameras not to exceed $500 in materials and $25 in a monthly service fee.",
+      "categories": [1],
+      "votes": {
+        "for": [3, 4, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "First Aid, CPR and AED training",
+      "description": "Training for all current staff and any new hire to be certified within 90 days of employment.",
+      "categories": [6],
+      "votes": {
+        "for": [3, 4, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Fine policy updates - amenity access",
+      "description": null,
+      "categories": [13],
+      "votes": {
+        "for": [3, 4, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Enforcement of short-term rentals",
+      "description": "Carpenter Hazelwood reviewing the CC&R's, bylaws, and the current fine policy in order to draft a supplemental fine policy with regards to short term rentals.",
+      "categories": [12],
+      "votes": {
+        "for": [3, 4, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Golf cart batteries",
+      "description": "Approve all batteries.",
+      "categories": [1],
+      "votes": {
+        "for": [3, 4, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Fall overseeding",
+      "description": null,
+      "categories": [2],
+      "votes": {
+        "for": [3, 4, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Repairs to shade sails",
+      "description": null,
+      "categories": [1],
+      "votes": {
+        "for": [],
+        "against": [],
+        "abstain": []
+      },
+      "result": 3,
+      "notes": "Table the purchase to allow more research on materials."
+    },
+    {
+      "title": "Purchase of new holiday tree",
+      "description": "Not to exceed $2,000.",
+      "categories": [1],
+      "votes": {
+        "for": [3, 4, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Wall repairs 2070 Saddlebrook",
+      "description": null,
+      "categories": [3],
+      "votes": {
+        "for": [3, 4, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Facility rules updates - decor regulations",
+      "description": "Update the rules to prohibit decorations from being attached to any walls.",
+      "categories": [5],
+      "votes": {
+        "for": [3, 4, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "attendees": [3, 4, 5, 6, 7, 8, 9],
+  "absentees": [],
+  "management": [4, 2],
+  "minutes": "https://www.adoratrailscoa.com/ResourceCenter/Download/22933/06_162021%20open%20approved?doc_id=2940196&print=1&view=1",
+  "notes": null,
+  "motions": [
+    {
+      "title": "Erosion repair",
+      "description": null,
+      "categories": [2],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Boulder installation",
+      "description": null,
+      "categories": [2],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Wall repairs 2070 Saddlebrook",
+      "description": "Bid for wall repairs at 2070 Saddlebrook from Signature Projects, with confirmation that the bid includes painting the iron for a cost not to exceed $2,850.",
+      "categories": [3],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Updated lake contract",
+      "description": "Updated lake maintenance contract provided by Hurricane Aquatics.",
+      "categories": [2],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Updated trash disposal contract",
+      "description": "Updated trash service contract provided by Right Away Disposal.",
+      "categories": [6],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Design guidelines updates - view fences and poles",
+      "description": null,
+      "categories": [5],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Facility rules updates",
+      "description": null,
+      "categories": [13],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Rental policy updates",
+      "description": null,
+      "categories": [12],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 8, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "First Aid/CRP/AED training bids",
+      "description": null,
+      "categories": [6],
+      "votes": {
+        "for": [],
+        "against": [],
+        "abstain": []
+      },
+      "result": 3,
+      "notes": "Board requested more information."
+    }
+  ]
+}

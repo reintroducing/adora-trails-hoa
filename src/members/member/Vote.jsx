@@ -22,13 +22,16 @@ const Vote = ({id, date, title, description, result, categories, vote}) => {
             <div className={css.title}>
                 <Text className={css[`result${result}`]}>{title}</Text>
                 {description && (
-                    <Text className={css.description}>{description}</Text>
+                    <Text className={css.description} size="sm">
+                        {description}
+                    </Text>
                 )}
                 <div className={css.details}>
-                    <Text size="sm">
+                    <Text size="xs">
                         <strong>Voted:</strong>{' '}
                         <Badge
                             classNameRoot={css.badge}
+                            size="sm"
                             variant={
                                 results.find(
                                     ({id: resultId}) => vote === resultId
@@ -38,7 +41,7 @@ const Vote = ({id, date, title, description, result, categories, vote}) => {
                             {VOTE_TYPES[vote]}
                         </Badge>
                     </Text>
-                    <Text size="sm">
+                    <Text size="xs">
                         <strong>Categories:</strong>{' '}
                         {categories.map(
                             (catId, i) =>

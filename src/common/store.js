@@ -16,6 +16,8 @@ const initialState = {
         {id: 9, name: 'Pest Control'},
         {id: 10, name: 'Pool'},
         {id: 11, name: 'Parking'},
+        {id: 12, name: 'Rentals'},
+        {id: 13, name: 'Amenities'},
     ],
     results: [
         {id: 1, name: 'Carried', variant: 'success'},

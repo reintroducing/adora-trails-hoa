@@ -1,0 +1,93 @@
+{
+  "attendees": [3, 4, 5, 6, 7, 9],
+  "absentees": [],
+  "management": [4, 2],
+  "minutes": "https://www.adoratrailscoa.com/ResourceCenter/Download/22933/03_172021%20open%20approved?doc_id=2911020&print=1&view=1",
+  "notes": null,
+  "motions": [
+    {
+      "title": "Overseeding",
+      "description": "Four Peaks bid for plant replenishment on off season overseeding areas not to exceed $1,500.",
+      "categories": [2],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Vending machines at community center",
+      "description": "Offer duck food at the community center, not to exceed a 7lb bag for the trial run, providing there is no degradation to the lake.",
+      "categories": [13],
+      "votes": {
+        "for": [],
+        "against": [3, 4, 5, 6, 7, 9],
+        "abstain": []
+      },
+      "result": 2,
+      "notes": null
+    },
+    {
+      "title": "Clubhouse A/C repair",
+      "description": null,
+      "categories": [1],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "May tree trimming",
+      "description": null,
+      "categories": [2],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Termite contract",
+      "description": "Contract with Termite & Pest Control for another year.",
+      "categories": [9],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Gym window shades",
+      "description": "Southwest Blinds & Shutters.",
+      "categories": [1],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Pump maintenance contract",
+      "description": "GMI Pump Systems contract.",
+      "categories": [1],
+      "votes": {
+        "for": [3, 4, 5, 6, 7, 9],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    }
+  ]
+}

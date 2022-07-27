@@ -8,7 +8,7 @@ import Table from '@patientpattern/coat/ui/Table';
 import Tooltip from '@patientpattern/coat/ui/Tooltip';
 import Text from '@patientpattern/coat/ui/Text';
 import {useCommonStore} from 'common/store';
-import Expand from 'common/table/Expand';
+// import Expand from 'common/table/Expand';
 import {useMembersStore} from 'members/store';
 import css from './Session.module.scss';
 
@@ -62,17 +62,17 @@ const Session = ({
                 </span>
             ),
         },
-        {
-            Header: '',
-            accessor: 'expand',
-            Cell: ({row}) => {
-                if (row.original.result !== 3) {
-                    return <Expand row={row} />;
-                } else {
-                    return null;
-                }
-            },
-        },
+        // {
+        //     Header: '',
+        //     accessor: 'expand',
+        //     Cell: ({row}) => {
+        //         if (row.original.result !== 3) {
+        //             return <Expand row={row} />;
+        //         } else {
+        //             return null;
+        //         }
+        //     },
+        // },
         /* eslint-enable react/prop-types */
     ];
     const directors = attendees.map(item => getDirectorById(item));
