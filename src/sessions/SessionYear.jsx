@@ -22,9 +22,21 @@ const SessionYear = () => {
                     day: 'numeric',
                 }),
                 content: <Session data={session} />,
-                onToggle: ({isExpanded}) => {
+                onToggle: ({id, isExpanded}) => {
+                    const triggers = document.querySelectorAll(
+                        '[data-panel-trigger]'
+                    );
+
                     if (isExpanded) {
                         setSearchParams({session: session.id});
+
+                        setTimeout(() => {
+                            window.scroll({
+                                top: triggers[id].offsetTop - 64,
+                                left: 0,
+                                behavior: 'smooth',
+                            });
+                        }, 300);
                     } else {
                         setSearchParams();
                     }
