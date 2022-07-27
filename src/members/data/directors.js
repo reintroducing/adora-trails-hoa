@@ -6,7 +6,7 @@ export default [
         title: 'President',
         image: null,
         active: false,
-        bio: null,
+        bio: '<p>Hello my name is Shana Morton, my husband and two kids built our home and moved into Adora Trails 4 1/2 years ago. I have over 23 years expenence in the HOA industry as I grew up working in our family business, an HOA management company. For the last 5 years I have worked at city property Management as a Community Manager. I am CAAM (Certified Arizona Association Manager) through the AACM (Arizona Association of Community Managers). I believe my experience and knowledge of the industry, financial management, HOA laws, and HOA trends will be an asset to our community I understand how the governing documents are to be followed and want to bring education, transparency, and involvement of the community to our homeowner controlled board. We have a beautiful, engaged community and would appreciate your support and vote for a seat on the board of directors. Thank you.</p>',
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export default [
         title: 'Director',
         image: null,
         active: false,
-        bio: null,
+        bio: "<p>Retired Marine Corps Officer, considerable Law Enforcement experience, BS Cnminal Law and Masters Forenic Science. Former Councilman, Vice Mayor and Mayor of a great Arizona Town. I have 10 years experience as an HOA Board Member and have served as President. Have written and rewritten Manuals and Rules and Regulations as well as updatlnq and changing By Laws. I have completed Adora Trails Associates Asset Management's Pre-School for HOA prospective board members. I will bring to the Board experience, common sense and a Leadership attitude that will protect our assets while helping our community's new HOA to hit the ground running in a positive manner and direction. I built my home and moved into Adora Trails April of 2013.</p>",
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ export default [
         title: 'Director',
         image: null,
         active: true,
-        bio: '<p>My wife and I moved to Adora Trails from Tucson in 2014 to be closer to our kids and grandkids.  I have been a CPA in public practice since I graduated from college in 1970.  I sold my accounting practice in 2014 and worked for the buyer until 2019 when I became fully retired.  We were attracted to Gilbert and Adora Trails because of the proximity to our kids and grandkids that live in this area as well as the amenities and developed common areas in this community.  I was elected to serve on the original Adora Trails HOA board for a term of two years beginning in 2020.  The developer Taylor Morrison turned over control of the HOA to the homeowners after they sold the remaining two lots in December 2019. Having just completed my two year term I am seeking election at this time to my second term.  I was elected by the HOA Board to serve as Treasurer of the association.  In my role as Treasurer I have worked directly with the accounting department of our management company in an oversight capacity.  Each month I receive a copy of the Adora Trails financial statements along with various records and reports.  I compare the bank statements against the balances in our financial statements as well as the accuracy of our various bank reconciliations.  The actual accounting records for the HOA are prepared and maintained by our management company AAM.  Digital copies of the association accounting records are provided to the Association board members.  In addition to monthly oversight I have also been directly involved in assisting our manager with the annual budget and the cash management our Association reserve funds.  I have also spent time reviewing the results of the onsight reserve study which was conducted in 2021 by an outside professional firm to assess our future funding needs for repairs and major equipment replacement costs.  The results of this study are used by the Association to determine our annual cash transfer to the reserve fund.  I believe that what I have learned about HOA operations and accounting the past two years in addition to my career as a CPA has qualified me to continue serving the homeowners for a second term.  Your support is greatly appreciated.</p>',
+        bio: '<p>I moved to Adora Trails in December 2013. My entire business career has been as a Certified Public Accountant working in national and local CPA firms plus my own CPA practice. My wife, Patty, and I relocated to Gilbert from Tucson to be near our children and grandchildren. We selected Adora Trails because of everything it has to offer. We love living here and plan to be here for a very long time.</p><p>I would like to be on our association board because I have the time and interest as well as the experience to serve our community. I attended all of the meetings of the Adora Trails Transition Education Committee. During my long career in public accounting I prepared countless financial statements and tax returns and explained the results to my clients. I believe this experience qualifies me to provide oversight and clarity for the association.</p>',
     },
     {
         id: 4,
@@ -33,7 +33,7 @@ export default [
         title: 'President',
         image: null,
         active: false,
-        bio: null,
+        bio: "<p>I am a husband and dad of 3 that has been an active member of the Adora Trails community for 6 years. In such time, I've been a good neighbor and a positive contributor to our neighborhood by co-creating the Adora Trails sports page, organizing activities, volunteering at school events, promoting services, helping when I can and even keeping us safe from clowns! (HaHa). I have 20+ years of experience in the private security/business field where I have partnered with boards and property management groups of communities throughout the southwest US. I have previously been an active member of CAI, AACM, IIMA, BOMA, IREM, and many more related organizations. I hold a Masters degree and am well versed in budgets, P&Ls, forecasts and other business related items. Most importantly, I am a neighbor who loves Adora Trails and wishes to see it continue to prosper. Thank you.</p>",
     },
     {
         id: 5,
@@ -42,7 +42,7 @@ export default [
         title: 'Vice President',
         image: null,
         active: true,
-        bio: "<p>I am looking forward to continuing with the work that the current Board of Directors have achieved in the first year of the homeowner‐controlled board. Pride of ownership and ensuring our community is looked at as one of the top communities in Gilbert should be a goal for all owners and residents. With that in mind, conveying and governing our community CC&R's along with our bylaws is paramount in protecting the investments of all Adora's homeowners. My key goals are:</p><ul><li>Protect the investment of all Adora Trails property owners.</li><li>Ensure the aesthetics of our community are kept in top condition.</li><li>Work to apply a commonsense approach to our governing documents where applicable.</li><li>Encourage a strong sense of community & pride within Adora Trails.</li></ul><p>I look forward to serving on the Board of Directors and working towards these goals.</p>",
+        bio: "<p>As a homeowner, I am looking forward to bringing my previous Board of Directors experience to Adora Trails in order to ensure a smooth transition to the member governed Board of Directors. Conveying and governing our community CC&R's along with our bylaws will be paramount in protecting the investments of our members. In preparation for the transition to the member governed Board of Directors, I also participated on the Adora Trails Transition Committee.</p><p>With that my goals are:</p><ul><li>Protect the investment of all property owners.</li><li>Ensure the aesthetics of our community are kept in top condition.</li><li>Work to apply a common sense approach to our governing documents where applicable.</li><li>Encourage a strong sense of community & pride within Adora Trails.</li></ul>",
     },
     {
         id: 6,
@@ -51,7 +51,7 @@ export default [
         title: 'Director',
         image: null,
         active: true,
-        bio: '<p>I was born and raised in Indiana where I attended Catholic schools through high school. I have a AB in Economics and a Masters Degree in Public Administration from Indiana University. I am a U. S. Air Force Veteran, and I spent 36 years in law enforcement, retiring as a Federal Law Enforcement Officer. I have been married to my wonderful wife, Laurie, for 42 years. We have two adult children, 5 grandchildren and two Rhodesian Ridgebacks. We moved to Adora Trails in 2013. I attended the transition training provided by AAM. The training provided great incite into how an HOA operates, and the duties and responsibilities of a board member. It also covered laws, financial matters, etc. effecting the operation of an HOA. I have served as the Vice President of the HOA Board for the last two years. If elected, I will continue serve the community to the best of my ability. I will think through every decision I make to ensure that we maintain our property values, while keeping the community aesthetically pleasing and ensuring we keep the quality of life we have grown used to.</p>',
+        bio: '<p>I have been married to my wife Laurie for 40 years. I have a BS in Economics and an MPA in Public Administration. I served in the United States Air Force. I spent 36 years in law enforcement. I was a patrol officer; a team leader for a special response team; a city department head; a drug smuggling investigator; and, a Federal Air Marshal. As a department head I managed both employees and the department budget, which I prepared and presented to the city council. During my time with the Federal Air Marshal Service, I supervised a cadre of Federal Air Marshals, and also represented my agency on an FBI Joint Terrorism Task Force (JTTF) for three years. I am very familiar with criminal, civil and administrative law. I have attended many hours of training as a member of Adora Trails Transition Committee. The training included overviews of the following: Governing Documents, HOA Financials, Budget, Reserve & Insurance, and an overview and visit with AAM Professional Community Association Management. I believe my management/business/law enforcement experience will serve the HOA well. It would be my desire to help maintain a safe and welcoming environment in our community, while at the same time keeping our property values high.</p>',
     },
     {
         id: 7,
@@ -60,7 +60,7 @@ export default [
         title: 'Secretary',
         image: null,
         active: true,
-        bio: null,
+        bio: '<p>I moved to Adora Trails three years ago from New Mexico, after my husband accepted a job transfer with Intel. I am a former computer programmer, have been married for 32 years, and my husband and I have one son who is 25. I am originally from the Midwest, but spent most of my life in NM, and over the years, have lived abroad at times. I have served as President of two Parent Associations, as a Trustee on two independent private school Boards, on the Boards of numerous non-profit organizations, and have volunteered much over the years. Most recently, I served 2.5 years on the AT Social Committee, where I worked with and met many AT residents. My hobbies include reading, camping, and hiking. I completed the HOA Transition Education Class and feel I have the understanding, time, and skillset to dedicate to the management of our wonderful community.</p>',
     },
     {
         id: 8,
@@ -78,7 +78,7 @@ export default [
         title: 'President',
         image: null,
         active: true,
-        bio: '<p>My wife, Sue, and I along with our dogs Lucy and Skippy moved to Adora Trails about three years ago. We chose Adora Trails because for its family feeling, the amenities, and the parklike setting of green areas and walking trails. We are delighted with our decision. Before relocating to Arizona, I served for 15 years on my town’s 7-member Board of Education as a Trustee, Vice President, and President and oversaw a $100 million dollar budget. Working collaboratively with my fellow board members, we improved the education the children received while being fiscally responsible to the taxpayers. To be more knowledgeable about being a Director on the HOA, I served on the Adora Trails Transition Education Committee and learned about our HOAs finances, budget, insurance, CC&Rs, rules, and bylaws. I would like to utilize my training and 15 years of experience working on a board that is like Adora Trails HOA to help maintain the beauty and safety of the community while being fiscally responsible to the community members.</p>',
+        bio: "<p>My wife, Sue, and I along with our dogs Lucy and Skippy moved to Adora Trails in 2018. We chose Adora Trails due to its family feeling; the amenities; and the parklike setting of green areas and walking trails. We are delighted with our decision.</p><p>Before relocating to Arizona, I served for 15 years on my town's 7-member Board of Education as a Trustee, Vice President, and President and oversaw a $100 million dollar budget. Working collaboratively with my fellow board members, we improved the education the children received while being fiscally responsible to the taxpayers.</p><p>To be more knowledgeable about being a Director on the HOA, I served on the Adora Trails Transition Education Committee learning about its finances, budget, insurance, CC&Rs, rules, and bylaws.</p><p>My goals for Adora Trails are to maintain the beauty and safety of the community while being fiscally responsible to the community members.</p>",
     },
     {
         id: 10,

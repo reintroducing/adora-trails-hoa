@@ -34,14 +34,14 @@ const Member = () => {
                 <div className={css.info}>
                     <Text className={css.name} size="lg" weight="medium">
                         {firstName} {lastName}
-                        <Badge
-                            classNameRoot={css.badge}
-                            variant={active ? 'success' : 'error'}
-                        >
-                            {active ? 'Active' : 'Inactive'}
-                        </Badge>
                     </Text>
                     <Text className={css.title}>{title}</Text>
+                    <Badge
+                        classNameRoot={css.badge}
+                        variant={active ? 'success' : 'error'}
+                    >
+                        {active ? 'Active' : 'Inactive'}
+                    </Badge>
                     {(email || company) && (
                         <div className={css.extras}>
                             {email && (

@@ -6,10 +6,12 @@ import SessionYear from 'sessions/SessionYear';
 import Members from 'members';
 import Member from 'members/member';
 import App from './App';
+import ScrollToTop from './ScrollToTop';
 
 const Root = () => (
     <CoatApp>
         <BrowserRouter basename="/adora-trails-hoa">
+            <ScrollToTop />
             <App>
                 <Routes>
                     <Route path="/" element={<Outlet />}>
