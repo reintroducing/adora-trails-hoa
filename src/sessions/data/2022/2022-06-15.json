@@ -1,0 +1,93 @@
+{
+  "attendees": [3, 5, 6, 7, 8, 9, 10],
+  "absentees": [],
+  "management": [4, 6, 7],
+  "minutes": "https://www.adoratrailscoa.com/ResourceCenter/Download/22933/adoratrailsbodminutes61522approved?doc_id=3067476&print=1&view=1",
+  "notes": "Tracy Small joined via Zoom.",
+  "motions": [
+    {
+      "title": "July tree trimming",
+      "description": "Bid from Four Peaks for $24,105.",
+      "categories": [2],
+      "votes": {
+        "for": [3, 5, 6, 7, 8, 9, 10],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Gym and men's room mirror replacement",
+      "description": "Bid from Miner for $4,626.48 for replacement of 2 mirrors in the gym and 1 mirror in the men's room.",
+      "categories": [1, 13],
+      "votes": {
+        "for": [3, 5, 6, 7, 8, 9, 10],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Amendment to the fine policy",
+      "description": "Approve the proposed revisions to the fine policy which add all types of vehicle violations to the escalated fine schedule.",
+      "categories": [8],
+      "votes": {
+        "for": [3, 5, 6, 8],
+        "against": [7, 9, 10],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Flag purchase & committee action for July 4th",
+      "description": "Approve the purchase of 20 outdoor rated American flags and materials for flagpoles for $566.40.",
+      "categories": [1],
+      "votes": {
+        "for": [3, 5, 6, 7, 8, 9, 10],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Clubhouse TV screen replacement",
+      "description": "Approve the purchase of (1) 75inch TV screen and a carousel content manager from NorVision for a cost not to exceed $3,000.",
+      "categories": [1],
+      "votes": {
+        "for": [3, 5, 6, 7, 8, 9, 10],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Fitness center maintenance bid",
+      "description": "Approve the bid from Gym Tech for $1,684.14 for maintenance items needed in the fitness center.",
+      "categories": [1],
+      "votes": {
+        "for": [3, 5, 6, 7, 8, 9, 10],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    },
+    {
+      "title": "Caregiver amenities access request",
+      "description": null,
+      "categories": [13],
+      "votes": {
+        "for": [3, 5, 6, 7, 8, 9, 10],
+        "against": [],
+        "abstain": []
+      },
+      "result": 1,
+      "notes": null
+    }
+  ]
+}
